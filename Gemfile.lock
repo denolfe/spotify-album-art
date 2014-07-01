@@ -1,0 +1,20 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    certified (0.1.2)
+    ffi (1.9.0-x86-mingw32)
+    netrc (0.7.7)
+    rautomation (0.15.0)
+      ffi (= 1.9.0)
+    rest_client (1.7.3)
+      netrc (~> 0.7.7)
+    rspotify (0.7.1)
+      rest_client (~> 1.7)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  certified
+  rautomation
+  rspotify
